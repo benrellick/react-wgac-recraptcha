@@ -1,6 +1,6 @@
 import React from "react";
 
-const ReCRAPTCHA = props => {
+const ReCRAPtcha = props => {
   const { thiccness } = props;
 
   let unit = isNaN(thiccness) ? '' : 'px';
@@ -35,4 +35,4 @@ const ReCRAPTCHA = props => {
   );
 };
 
-export default ReCRAPTCHA;
+export default ReCRAPtcha;

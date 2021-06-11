@@ -23,12 +23,12 @@ npm install --save react-wgac-recraptcha
 ```jsx
 import React, { Component } from 'react'
 
-import ReCRAPTCHA from 'react-wgac-recraptcha'
+import ReCRAPtcha from 'react-wgac-recraptcha'
 import 'react-wgac-recraptcha/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <ReCRAPTCHA thiccness="medium" />
+    return <ReCRAPtcha thiccness="medium" />
   }
 }
 ```
