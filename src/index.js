@@ -1,6 +1,38 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React from "react";
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+const ReCRAPTCHA = props => {
+  const { thiccness } = props;
+
+  let unit = isNaN(thiccness) ? '' : 'px';
+
+  const containerStyles = {
+    fontSize: `${thiccness}${unit}`
+  };
+
+  let butt = String.raw`
+  
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  |                                |
+  |  To prove you're not a robot,  |
+  |  select all images of a BUM    |
+  |                                |
+  |      | -\            /  /      |
+  |      (_  |     |    |- ,       |
+  |          |     |    |          |
+  |          /          |          |
+  |         /      ,     \         |
+  |        |       )      )        |
+  |        |      _/_   _ /        |
+  |         \      |      |        |
+  |          |     |      ,        |
+  |                                |
+  |                                |
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  `;
+
+  return (
+    <pre style={containerStyles}> { butt } </pre>
+  );
+};
+
+export default ReCRAPTCHA;
