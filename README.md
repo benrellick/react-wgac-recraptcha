@@ -1,7 +1,5 @@
 # react-wgac-recraptcha
 
-> Just butts™
-
 The future of butt-based challenge-response tests is here! It's sure to reduce spam (mmmmm... spam), secure your website or app, and make you look 10 years younger all at the same time!
 
 CRAPtcha stands for *Completely Real and Awesome Public Turing test to tell Computers and Humans Apart*. ReCRAPtcha stands for the same thing except twice, we think.
