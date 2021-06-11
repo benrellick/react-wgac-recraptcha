@@ -4,7 +4,7 @@
 
 The future of butt-based challenge-response tests is here! It's sure to reduce spam (mmmmm... spam), secure your website or app, and make you look 10 years younger all at the same time!
 
-CRAPtcha stands for "Completely Real and Awesome Public Turing test to tell Computers and Humans Apart". ReCRAPtcha stands for the same thing except twice, we think.
+CRAPtcha stands for *Completely Real and Awesome Public Turing test to tell Computers and Humans Apart*. ReCRAPtcha stands for the same thing except twice, we think.
 
 ReCRAPtcha is in beta testing and probably will stay that way forever, but it's available for any early adopters who want to use it in their projects, or just want to mess with their robot friends.
 
